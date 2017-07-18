@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background:url(images/background.jpg) no-repeat center fixed;
+    font-family: Calibri,Arial,sans-serif;
+}
+
+a {
+    color: steelblue;
+}
+
+/*-- Site Content Container --*/
+#container {
+    background-color: white;
+    position: relative;
+    margin: auto;
+    padding: 15px;
+    width: 950px;
+    box-shadow: 3px 3px 2px grey;
+}
+
+/*-- Main Header --*/
+#header {
+    position: relative;
+    width: 950px;
+    height: 100px;
+}
+
+/*-- Top Title Styles --*/
+#nametop {
+    position: absolute;
+    font-size: 50px;
+    font-family: Arial, Verdana, sans-serif;
+    color: black;
+}
+
+/*-- Navigation Styles --*/
+#topnav {
+	margin:0 0 0 600px;
+	position:absolute;
+	width:303px;
+	height:30px;
+}
+
+.btn {
+    float:left;
+	width:100px;
+	height:30px;
+	background-color:darkslategray;
+	color:white;
+	text-decoration:none;
+    letter-spacing: 1px;
+	font-size:14px;
+	margin-right:1px;
+	text-align:center;
+	line-height:30px;
+	font-weight:bold;
+    
+}
+
+.btn:hover {
+	background-color:whitesmoke;
+    color:midnightblue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+/*-- Main Content Styles --*/
+.section {
+	position:relative;
+	width:950px;
+	margin:40px 0;
+}
+
+.section-title {
+	position:relative;
+	width:98%;
+	padding-left: 10px;
+	background-color:darkslategrey;
+	color:white;
+	
+}
+#picdiv {
+    float: left;
+    width: 450px;
+    height: 360px;
+}
+
+.pic {
+    position:relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+	
+}
+
+#txtdiv {
+    float:right;
+    width: 520px;
+    height:360px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+.text {
+    text-align: justify;
+    color: dimgrey;
+}
+
+#hob {
+    padding-left: 20px;
+}
+
+.hobby {
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.hobby:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.edu {
+    display: inline-block;
+    width: 35%;
+    margin-left: 100px;
+}
+
+/*-- Footer --*/
+#footer {
+	
+	position:relative;
+	width:950px;
+	padding:3px;
+	background-color:black;
+	font-size:10px;
+	color:gray;
+	text-align:center;
+}

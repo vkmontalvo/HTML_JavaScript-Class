@@ -1,0 +1,386 @@
+/*------- Global Styles -------*/
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background: url(images/back2.jpg) no-repeat center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: red;
+    font-size: 0.8em;
+}
+
+/*------- Home Page -------*/
+.main-body {
+    background-image:url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    position: relative;
+}
+
+/* main header */
+header {
+    background-color: #150101;
+    height: 157px;
+    margin: 0;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 0px;
+}
+
+.social {
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin: 65px 10px 0px 0px;
+}
+
+nav {
+    background-color: #541919;
+    height: 43px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 0px;
+    position: relative;
+}
+
+.nav {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav li:not(.donate) {
+    float: left;
+}
+
+.donate {
+    float: right;
+}
+
+
+.nav a{
+    display: block;
+    padding: 6px 10px;
+    margin: 5px 0px 5px 0px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 3px 3px #000000;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav a:hover{
+    font-size: 1.4em;
+}
+
+/* main content */
+.info {
+    margin: 50px 120px 55px;
+    width: 600px;
+    height: 550px;
+    background-color: rgba(254, 252, 252, 0.8);
+    border-radius: 25px;
+    box-shadow: 1px 9px 8px #000000;
+    float: right;
+}
+
+.quote {
+    color: #ae0909;
+    font-weight: normal;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    margin: 60px 30px 60px;
+}
+
+.info-p {
+    font-size: 1.2em;
+    color: black;
+    text-align: justify;
+    margin: 10px 40px;
+}
+
+/* footer content */
+.lower {
+    position: relative;
+    background-color: #520909;
+    height: 152px;
+    width: 100%;
+    clear: both;
+    bottom: 0;
+}
+
+/* lower images */
+.pic-div {
+    float: right;
+    margin-right: 90px;
+}
+
+.pics {
+    float: right;
+    display: block;
+    margin: -36px 10px 0px 10px;
+    border-radius: 25px;
+    height: 188px;
+    width: 250px;
+}
+
+/* copyright */
+.copyright {
+    margin-top: 128px;
+    width: 100%;
+    clear: both;
+    background-color: #111111;
+}
+
+.copy {
+    color: #3f3d3d;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+/*------- Videos Page -------*/
+
+.content {
+    background-color: #180101;
+    padding: 20px 100px 20px 100px;
+    width: 50%;
+    height: 1500px;
+    margin: auto;
+    box-shadow: 1px 9px 8px #000000;
+}
+
+.vid-div {
+    height: auto;
+    width: auto;
+}
+
+.video {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.caption {
+    float: right;
+    display: inline-block;
+    width: 300px;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 130px;
+}
+
+.title {
+    color: #ff0000;
+    font-weight: normal;
+    font-size: 2em;
+    text-shadow: 1px 3px 3px #000000;
+}
+
+/* copyright */
+.copyright-video {
+    margin: auto;
+    margin-top: -20px;
+    width: 61%;
+    height: 30px;
+    padding-top: 10px;
+    clear: both;
+    background-color: #111111;
+}
+
+/*------- Events Page -------*/
+
+.cal {
+    width: 510px;
+    margin: auto;
+}
+
+.no-date  {
+    
+    background-color:#cccccc;
+    width:50px;
+    height:50px;
+    padding:2px;
+}
+
+.date {
+    width:50px;
+    height:50px;
+    background-color:white;
+    color:black;
+    border:none;
+    
+}
+
+.data {
+    text-align: center;
+    margin: 0;
+    color: white;
+    background-color: rgba(82, 25, 25, 0.8);
+    box-shadow: 0px 1px 2px #000000;
+    border: 1px solid black;
+    border-radius: 7px;
+    
+}
+
+.month {
+    width:510px;
+    height:50px;
+    background-color:#541919;
+    color:white;
+    text-align:center;
+    line-height:50px;
+    
+}
+
+table {
+    font-size:0.7em;
+    
+}
+
+.month {
+    margin:0;
+    
+}
+.content-event {
+    background-color: #180101;
+    padding: 20px 100px 20px 100px;
+    width: 50%;
+    height: 700px;
+    margin: auto;
+    box-shadow: 1px 9px 8px #000000;
+}
+
+.event-list {
+    color: white;
+    font-size: 0.8em;
+    margin-left: 20px;
+}
+
+/*------- Bio Page -------*/
+
+.pic {
+    float: left;
+    border-radius: 25px;
+    box-shadow: 1px 9px 8px #000000;
+}
+
+.pic-caption {
+    float: right;
+    display: inline-block;
+    width: 430px;
+    color: white;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+/*------- Issues Page -------*/
+
+.issue-title {
+    margin: 30px 200px 10px 200px;
+    background-color: #000000;
+    color: #ff0000;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-shadow: 1px 3px 3px #000000;
+}
+
+.issue {
+    color: white;
+    text-shadow: 1px 3px 3px #000000;
+    font-size: 0.9em;
+    text-align: justify;
+    margin: 0 230px 0 230px;
+}
+
+/*------- Contact Page -------*/
+
+.contact-pic {
+    margin: 50px 120px 20px 100px;
+    border-radius: 25px;
+    box-shadow: 1px 9px 8px #000000;
+}
+
+/* form styles */
+
+fieldset {
+    border: 0;
+}
+
+.contact {
+    margin: auto;
+    width: 500px;
+    align-content: center;
+    height: 250px;
+    background-color: rgba(254, 252, 252, 0.9);
+}
+.join {
+    border: none;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #ae0909;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.continfo {
+    margin: 0px 0px 5px 5px;
+    color: darkgrey;
+    padding-left: 5px;
+    width: 450px;
+}
+
+.submit {
+    float: left;
+    margin-right: 5px;
+    background-color: #790000;
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.content-contact {
+    background-color: #180101;
+    padding: 20px 100px 20px 100px;
+    width: 50%;
+    height: 800px;
+    margin: auto;
+    box-shadow: 1px 9px 8px #000000;
+}
+
+/*------- Thankyou Page -------*/
+
+.thanks-title {
+    color: #ff0000;
+    font-weight: normal;
+    font-size: 2.9em;
+    text-shadow: 1px 3px 3px #000000;
+    text-align: center;
+}
+
+.thanks-pic {
+    margin: 0 150px;
+}

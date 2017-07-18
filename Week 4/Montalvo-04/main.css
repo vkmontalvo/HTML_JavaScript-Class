@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    background:url(images/background.jpg) no-repeat center fixed;
+    font-family: Tahoma, Helvetica, sans-serif;
+    color: white;
+}
+
+/*-- site container --*/
+#container {
+    position: relative;
+    width: 990px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 6px black;
+    background-color: #12191F;
+}
+
+/*-- Main Header --*/
+#header {
+    position: relative;
+    width: 990px;
+    height: 100px;
+}
+
+#main-header {
+    float: left;
+    width: 990px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #44596a;
+}
+
+#name {
+    text-align: center;
+    color: white;
+    margin: 25px 20px;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.navi ul {
+    float: right;
+    background-color: #172226;
+    background-repeat: repeat-x;
+    word-spacing: 15px;
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navi li {
+    float: left;
+}
+
+.navi li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px 14px;
+}
+
+.navi li a:hover:not(.active) {
+    background-color: #4e6a7b;
+}
+
+.active {
+    background-color:#354350;
+}
+
+.buttons {
+    width: 650px;
+    height: 40px;
+    margin: auto;
+}
+
+
+/* Page Content ---------------------------------------------------*/
+
+/*-- left content --*/
+
+#left {
+    float: left;
+    width: 450px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.main {
+    float: left;
+    width: 900px;
+}
+
+.title {
+    float: left;
+    color: #4e6a7b;
+    margin: 3px 50px;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.picdiv {
+    padding-left: 50px;
+    float: left;
+    width:800px;
+    margin: 10px 0px 75px 0px;
+    
+}
+
+.picdiv img {
+    float: left;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+.text {
+    display: inline-block;
+    text-align: justify;
+    width: 370px;
+    font-size: 0.9em;
+    margin-left: 20px;
+}
+
+/*-- right content --*/
+
+aside {
+    float: right;
+    width: 180px;
+}
+
+#sidebar {
+    float: right;
+    width: 176px;
+    height: 30px;
+    background-color: #173B54;
+    margin-bottom: 10px;
+
+}
+
+.more {
+    margin: 5px 0 0 10px;
+    font-weight: normal;
+    font-size: .9em;
+    text-align: center;
+}
+
+.thumbnail {
+    float: right;
+    border: 1px solid #4B7899;
+    margin-bottom: 10px;
+}
+
+footer {
+    clear: both;
+    width: 970px;
+    height: 50px;
+    border-top: 2px solid black;
+    color: #5B5B5C;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+/* Hobby page content --------------------*/
+
+#hob {
+    padding: 200px 0px 75px 0px;
+}
+
+.title1 {
+    float: left;
+    color: #4e6a7b;
+    margin: 3px 15px;
+    font-weight: normal;
+    font-size: 1.9em;
+}
+
+.hobby {
+    display: inline-block;
+    border-radius: 12px;
+    text-decoration: none;
+    text-align: justify;
+    font-size: 0.8em;
+    color: white;
+    width: 300px;
+    margin: 10px 7px 75px 9px;
+    padding: 0px 5px 20px 5px
+}
+
+.hobby img {
+    border-radius: 12px;
+}
+
+.hobby:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Education page content ----------------*/
+
+.edu {
+    display: inline-block;
+    width: 38%;
+    margin: 50px 0px 75px 100px;
+}
+
+.title2 {
+    float: left;
+    color: #4e6a7b;
+    margin: 3px 0px 50px;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+
